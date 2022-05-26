@@ -10,11 +10,12 @@ body {
 h1,
 h3 {
   margin-top: 0;
-  text-shadow: 1px 1px #1c1c1c;
+  /* text-shadow: 1px 1px #1c1c1c; */
 }
 
 h1 {
   font-size: 30px;
+  margin-bottom: 40px;
 }
 
 p {
@@ -25,19 +26,21 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 150px;
 }
 .top {
   background-image: linear-gradient(
-    60deg,
-    hsl(180deg 56% 81%) 0%,
-    hsl(183deg 39% 82%) 13%,
-    hsl(191deg 21% 82%) 25%,
-    hsl(270deg 6% 81%) 37%,
-    hsl(338deg 21% 80%) 50%,
-    hsl(345deg 38% 79%) 63%,
-    hsl(347deg 54% 78%) 75%,
-    hsl(348deg 69% 77%) 87%,
-    hsl(348deg 81% 75%) 100%
+    45deg,
+    hsl(179deg 93% 44%) 0%,
+    hsl(180deg 55% 57%) 11%,
+    hsl(181deg 38% 62%) 22%,
+    hsl(188deg 20% 65%) 33%,
+    hsl(281deg 5% 66%) 44%,
+    hsl(343deg 24% 66%) 56%,
+    hsl(347deg 45% 66%) 67%,
+    hsl(348deg 66% 66%) 78%,
+    hsl(347deg 84% 64%) 89%,
+    hsl(345deg 100% 59%) 100%
   );
   height: 260px;
   width: 600px;
@@ -46,19 +49,31 @@ p {
   flex-direction: column;
   align-items: center;
 }
+.bottom {
+  padding: 20px 0;
+  background-color: #eaeaea;
+  color: #252a34;
+  width: 600px;
+  height: 260px;
+}
 
 .input {
   width: 100px;
+  height: 40px;
+  font-size: 30px;
+  margin-bottom: 20px;
+  outline: none;
+  border-radius: 2px;
+  border: none;
 }
 
 .btn {
+  font-size: 20px;
   width: 100px;
-}
-
-.bottom {
-  padding: 20px 0;
-  background-color: #fcf7ee;
-  color: #1a1921;
-  width: 600px;
-  height: 260px;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 15px;
+  margin-top: 20px;
+  color: #252a34;
+  background: #eaeaea;
 }
